@@ -1,0 +1,22 @@
+{
+  "name": "graphql-koa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-koa": "^1.0.4",
+    "graphql": "^0.10.5",
+    "graphql-tools": "^1.1.0",
+    "jest": "^20.0.4",
+    "joi": "^10.6.0",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "koa-validation": "^0.1.9",
+    "mongoose": "^4.11.3",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "MONGO_URL=mongodb://localhost/products_test jest --watch"
+  }
+}
